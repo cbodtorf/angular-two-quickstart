@@ -60,3 +60,6 @@ $ npm start
 - The ngModel directive also propagates changes to every other binding of the hero.name.
 
 ### 2. Master/Detail
+- Our Tour of Heroes now displays a list of selectable heroes
+- We added the ability to select a hero and show the hero’s details
+- We learned how to use the built-in directives ngIf and ngFor in a component’s template
