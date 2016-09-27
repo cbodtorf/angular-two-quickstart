@@ -53,7 +53,7 @@ $ npm start
 ---------------------------------
 ---------------------------------  
 ## Resources:
-#### * quickstart:
+#### * (quickstart):
 - [Npm Package Configuration](https://angular.io/docs/ts/latest/guide/npm-packages.html)
 - [TypeScript Configuration](https://angular.io/docs/ts/latest/guide/typescript-configuration.html#tsconfig)
 - [SystemJS module loader](https://github.com/systemjs/systemjs/blob/master/docs/config-api.md)
@@ -70,18 +70,21 @@ $ npm start
 - We wrote a multi-line template using ES2015’s template strings to make our template readable.
 - We can both display and change the hero’s name after adding a two-way data binding to the <input> element using the built-in ngModel directive.
 - The ngModel directive also propagates changes to every other binding of the hero.name.  
+
 ---------------------------------  
 ## Resources:
 #### * (the hero editor):  
-- [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html)
-- [ngModel: FormsModule](https://angular.io/docs/ts/latest/guide/forms.html#ngModel)
+- [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html)  
+- [ngModel: FormsModule](https://angular.io/docs/ts/latest/guide/forms.html#ngModel)  
 - [ngModel: Template Synatax](https://angular.io/docs/ts/latest/guide/template-syntax.html#ngModel)  
+
 ---------------------------------  
 
 ### 2. Master/Detail
 - Our Tour of Heroes now displays a list of selectable heroes
 - We added the ability to select a hero and show the hero’s details
 - We learned how to use the built-in directives ngIf and ngFor in a component’s template  
+
 ---------------------------------  
 ## Resources:
 #### * (master/detail):
@@ -92,6 +95,7 @@ $ npm start
 - [Structural Directives](https://angular.io/docs/ts/latest/guide/structural-directives.html)
 - [Structural Directives: Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html#directives)
 - [Property Bindings](https://angular.io/docs/ts/latest/guide/template-syntax.html#property-binding)  
+
 ---------------------------------  
 
 ### 3. Multiple Components  
@@ -99,12 +103,14 @@ $ npm start
 - We learned how to make a component accept input
 - We learned to declare the application directives we need in an Angular module. We list the directives in the NgModule decorator's declarations array.
 - We learned to bind a parent component to a child component.  
+
 ---------------------------------  
 ## Resources:
 #### * (multiple components):  
 - [Single Responsibility Principle](https://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 - [Input Properties](https://angular.io/docs/ts/latest/guide/attribute-directives.html#why-input)
-- [@Input(): Attribute Directives](https://angular.io/docs/ts/latest/guide/attribute-directives.html#input)
+- [@Input(): Attribute Directives](https://angular.io/docs/ts/latest/guide/attribute-directives.html#input)  
+
 ---------------------------------
 
 ### 4. Services
@@ -112,7 +118,9 @@ $ npm start
 - We used the ngOnInit Lifecycle Hook to get our heroes when our AppComponent activates.
 - We defined our HeroService as a provider for our AppComponent.
 - We created mock hero data and imported them into our service.
-- We designed our service to return a Promise and our component to get our data from the Promise.  ---------------------------------  
+- We designed our service to return a Promise and our component to get our data from the Promise.  
+
+---------------------------------  
 ## Resources:
 #### * (services):  
 - [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)
@@ -120,6 +128,7 @@ $ npm start
 - [Promises](http://exploringjs.com/es6/ch_promises.html)
 - [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Take it slow: poor connection testing](https://angular.io/docs/ts/latest/tutorial/toh-pt4.html#slow)  
+
 ---------------------------------
 
 ### 5. Routing  
