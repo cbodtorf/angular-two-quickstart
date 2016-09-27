@@ -135,6 +135,9 @@ $ npm start
 ---------------------------------  
 ### Resources:
 #### * (routing):
+- [Routing and Navigation](https://angular.io/docs/ts/latest/guide/router.html)  
+
+
 ---------------------------------  
 
 ## 6. HTTP  
