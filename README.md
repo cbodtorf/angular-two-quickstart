@@ -65,14 +65,14 @@ $ npm start
 ---------------------------------
 # Tour of Heroes
 
-### 1. The Hero Editor
+## 1. The Hero Editor
 - Our Tour of Heroes uses the double curly braces of interpolation (a kind of one-way data binding) to display the application title and properties of a Hero object.
 - We wrote a multi-line template using ES2015’s template strings to make our template readable.
 - We can both display and change the hero’s name after adding a two-way data binding to the <input> element using the built-in ngModel directive.
 - The ngModel directive also propagates changes to every other binding of the hero.name.  
 
 ---------------------------------  
-## Resources:
+### Resources:
 #### * (the hero editor):  
 - [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html)  
 - [ngModel: FormsModule](https://angular.io/docs/ts/latest/guide/forms.html#ngModel)  
@@ -80,13 +80,13 @@ $ npm start
 
 ---------------------------------  
 
-### 2. Master/Detail
+## 2. Master/Detail
 - Our Tour of Heroes now displays a list of selectable heroes
 - We added the ability to select a hero and show the hero’s details
 - We learned how to use the built-in directives ngIf and ngFor in a component’s template  
 
 ---------------------------------  
-## Resources:
+### Resources:
 #### * (master/detail):
 - [ngFor: Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html#ngFor)
 - [ngFor: Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html#ngFor)
@@ -98,14 +98,14 @@ $ npm start
 
 ---------------------------------  
 
-### 3. Multiple Components  
+## 3. Multiple Components  
 - We created a reusable component
 - We learned how to make a component accept input
 - We learned to declare the application directives we need in an Angular module. We list the directives in the NgModule decorator's declarations array.
 - We learned to bind a parent component to a child component.  
 
 ---------------------------------  
-## Resources:
+### Resources:
 #### * (multiple components):  
 - [Single Responsibility Principle](https://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 - [Input Properties](https://angular.io/docs/ts/latest/guide/attribute-directives.html#why-input)
@@ -113,7 +113,7 @@ $ npm start
 
 ---------------------------------
 
-### 4. Services
+## 4. Services
 - We created a service class that can be shared by many components.
 - We used the ngOnInit Lifecycle Hook to get our heroes when our AppComponent activates.
 - We defined our HeroService as a provider for our AppComponent.
@@ -121,7 +121,7 @@ $ npm start
 - We designed our service to return a Promise and our component to get our data from the Promise.  
 
 ---------------------------------  
-## Resources:
+### Resources:
 #### * (services):  
 - [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)
 - [Lifecycle Hooks](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html)
@@ -131,14 +131,14 @@ $ npm start
 
 ---------------------------------
 
-### 5. Routing  
+## 5. Routing  
 ---------------------------------  
-## Resources:
+### Resources:
 #### * (routing):
 ---------------------------------  
 
-### 6. HTTP  
+## 6. HTTP  
 ---------------------------------  
-## Resources:
+### Resources:
 #### * (http):
 ---------------------------------
