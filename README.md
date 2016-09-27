@@ -136,7 +136,8 @@ $ npm start
 ### Resources:
 #### * (routing):
 - [Routing and Navigation](https://angular.io/docs/ts/latest/guide/router.html)  
-
+- [Base Href: Router](https://angular.io/docs/ts/latest/guide/router.html#!#base-href)
+- [Link Parameters](https://angular.io/docs/ts/latest/guide/router.html#link-parameters-array)  
 
 ---------------------------------  
 
