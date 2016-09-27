@@ -7,13 +7,18 @@ import { DashboardComponent }     from './dashboard.component'
 
 const appRoutes: Routes = [
   {
-    path: 'heroes',
-    component: HeroesComponent
+    path: '',
+    redirectTo: '/dashboard',
+    pathMatch: 'full'
   },
   {
     path: 'dashboard',
     component: DashboardComponent
-  }
+  },
+  {
+    path: 'heroes',
+    component: HeroesComponent
+  },
 ]
 
 // We call the forRoot method because we're providing a configured router at the root of the application.
