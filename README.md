@@ -132,6 +132,13 @@ $ npm start
 ---------------------------------
 
 ## 5. Routing  
+- We added the Angular Router to navigate among different components.
+- We learned how to create router links to represent navigation menu items.
+- We used router link parameters to navigate to the details of user selected hero.
+- We shared the HeroService among multiple components.
+- We moved HTML and CSS out of the component file and into their own files.
+- We added the uppercase pipe to format data.  
+
 ---------------------------------  
 ### Resources:
 #### * (routing):
@@ -140,7 +147,7 @@ $ npm start
 - [Link Parameters](https://angular.io/docs/ts/latest/guide/router.html#link-parameters-array)  
 - [Redirects](https://angular.io/docs/ts/latest/guide/router.html#!#redirect)
 - [CanDetective Guard](https://angular.io/docs/ts/latest/api/router/index/CanDeactivate-interface.html)
-- [Pipes](https://angular.io/docs/ts/latest/guide/pipes.html)
+- [Pipes](https://angular.io/docs/ts/latest/guide/pipes.html)  
 
 ---------------------------------  
 
