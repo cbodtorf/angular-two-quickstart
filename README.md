@@ -69,3 +69,10 @@ $ npm start
 - We learned how to make a component accept input
 - We learned to declare the application directives we need in an Angular module. We list the directives in the NgModule decorator's declarations array.
 - We learned to bind a parent component to a child component.
+
+### 4. Services
+- We created a service class that can be shared by many components.
+- We used the ngOnInit Lifecycle Hook to get our heroes when our AppComponent activates.
+- We defined our HeroService as a provider for our AppComponent.
+- We created mock hero data and imported them into our service.
+- We designed our service to return a Promise and our component to get our data from the Promise.
