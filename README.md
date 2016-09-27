@@ -138,6 +138,9 @@ $ npm start
 - [Routing and Navigation](https://angular.io/docs/ts/latest/guide/router.html)  
 - [Base Href: Router](https://angular.io/docs/ts/latest/guide/router.html#!#base-href)
 - [Link Parameters](https://angular.io/docs/ts/latest/guide/router.html#link-parameters-array)  
+- [Redirects](https://angular.io/docs/ts/latest/guide/router.html#!#redirect)
+- [CanDetective Guard](https://angular.io/docs/ts/latest/api/router/index/CanDeactivate-interface.html)
+- [Pipes](https://angular.io/docs/ts/latest/guide/pipes.html)
 
 ---------------------------------  
 
