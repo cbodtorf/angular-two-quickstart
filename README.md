@@ -155,4 +155,5 @@ $ npm start
 ---------------------------------  
 ### Resources:
 #### * (http):
+- [HTTP client](https://angular.io/docs/ts/latest/guide/server-communication.html#!#in-mem-web-api)
 ---------------------------------
