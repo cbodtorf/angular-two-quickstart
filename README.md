@@ -158,6 +158,7 @@ $ npm start
 - We updated our components to allow adding, editing and deleting of heroes.
 - We configured an in-memory web API.
 - We learned how to use Observables.  
+
 ---------------------------------   
 ### Resources:
 #### * (http):  
