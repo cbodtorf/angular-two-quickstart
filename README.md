@@ -152,9 +152,16 @@ $ npm start
 ---------------------------------  
 
 ## 6. HTTP  
----------------------------------  
+- We added the necessary dependencies to use HTTP in our application.
+- We refactored HeroService to load heroes from a web API.
+- We extended HeroService to support post, put and delete methods.
+- We updated our components to allow adding, editing and deleting of heroes.
+- We configured an in-memory web API.
+- We learned how to use Observables.  
+---------------------------------   
 ### Resources:
-#### * (http):
+#### * (http):  
 - [HTTP client](https://angular.io/docs/ts/latest/guide/server-communication.html#!#in-mem-web-api)
-- [Observables](https://angular.io/docs/ts/latest/tutorial/toh-pt6.html#observables)
+- [Observables](https://angular.io/docs/ts/latest/tutorial/toh-pt6.html#observables)  
+
 ---------------------------------
