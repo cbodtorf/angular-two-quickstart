@@ -156,4 +156,5 @@ $ npm start
 ### Resources:
 #### * (http):
 - [HTTP client](https://angular.io/docs/ts/latest/guide/server-communication.html#!#in-mem-web-api)
+- [Observables](https://angular.io/docs/ts/latest/tutorial/toh-pt6.html#observables)
 ---------------------------------
