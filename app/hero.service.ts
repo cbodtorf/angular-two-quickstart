@@ -10,7 +10,7 @@ import { Hero }          from './hero'
 @Injectable()
 export class HeroService {
   private heroesUrl = 'app/heroes' // URL to web api
-  
+
   private headers = new Headers({'Content-Type': 'application/json'})
 
   private handleError(error: any): Promise<any> {
@@ -44,6 +44,15 @@ export class HeroService {
                .put(url, JSON.stringify(hero), {headers: this.headers})
                .toPromise()
                .then(() => hero)
+               .catch(this.handleError);
+  }
+
+  create(name: string): Promise<Hero> {
+    return this.http
+               .post(this.heroesUrl, JSON.stringify({name: name}), {headers: this.headers})
+               .toPromise()
+               .then(response => response.json().data)
                .catch(this.handleError)
+
   }
 }
